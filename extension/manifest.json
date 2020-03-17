@@ -1,0 +1,34 @@
+﻿{
+	"manifest_version": 2,
+	"name": "WASD.TV | Tool",
+	"short_name": "WASD.TV | Tool",
+	"description": "by SeJIya © 2020", 
+	"version": "0.0.2",
+	"content_scripts": [
+		{
+			"js": [ "js/jquery-3.4.1.min.js", "js/chat.js", "js/ad.js" ],
+			"matches": ["*://wasd.tv/channel/*"],
+			"run_at": "document_end"
+		},
+		{
+			"js": [ "js/jquery-3.4.1.min.js", "js/dvr.js"],
+			"css": [ "css/dvr.css" ],
+			"matches": ["*://wasd.tv/channel/173869"],
+			"run_at": "document_end"
+		}
+	],
+	"permissions": [
+		"https://wasd.tv/",
+		"management"
+	],
+	"background": {
+		"scripts": [ "js/background.js" ]
+	},
+	"browser_action": {
+		"default_icon": "img/icon/icon_48.png",
+		"default_title": "WASD.TV | Tool"
+	},
+	"icons": {
+		"48":"img/icon/icon_48.png"
+	}
+}
