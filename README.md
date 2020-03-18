@@ -13,7 +13,7 @@
 <hr>
 <h3 align="center">Перемотка активного стрима</h3>
 <p align="center">
-Для работы функции необходимо дополнительно установить расширение <a href="https://chrome.google.com/webstore/detail/play-hls-m3u8/ckblfoghkjhaclegefojbgllenffajdc/related?hl=ru">Play HLS M3u8.</a> После установки в плеере рядом с выбором качества появится кнопка <img src="https://raw.githubusercontent.com/SeJIya/WASD.TV-Tool-Lite/master/img/dvr.png"> при нажатии которой, откроется новое окно с записью всего текущего стрима и его можно будет перемотать. Функция работает только на стриме у гекса.
+Для работы функции необходимо дополнительно установить расширение <a href="https://chrome.google.com/webstore/detail/play-hls-m3u8/ckblfoghkjhaclegefojbgllenffajdc/related?hl=ru">Play HLS M3u8.</a> После установки в плеере рядом с выбором качества появится кнопка <img src="https://raw.githubusercontent.com/SeJIya/WASD.TV-Tool-Lite/master/img/dvr.png"> при нажатии которой, откроется новое окно с записью всего текущего стрима и его можно будет перемотать.
 </p>
 <h3 align="center">Борьба с полосками после рекламы</h3>
 <p align="center">

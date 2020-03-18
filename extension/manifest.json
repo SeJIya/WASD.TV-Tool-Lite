@@ -6,14 +6,9 @@
 	"version": "0.0.2",
 	"content_scripts": [
 		{
-			"js": [ "js/jquery-3.4.1.min.js", "js/chat.js", "js/ad.js" ],
-			"matches": ["*://wasd.tv/channel/*"],
-			"run_at": "document_end"
-		},
-		{
-			"js": [ "js/jquery-3.4.1.min.js", "js/dvr.js"],
+			"js": [ "js/jquery-3.4.1.min.js", "js/chat.js", "js/ad.js", "js/dvr.js" ],
 			"css": [ "css/dvr.css" ],
-			"matches": ["*://wasd.tv/channel/173869/*"],
+			"matches": ["*://wasd.tv/channel/*"],
 			"run_at": "document_end"
 		}
 	],
